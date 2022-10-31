@@ -165,6 +165,11 @@ color: var(--primary-bt-color);
 .button-work  {
     color: var(--title-text-color);
         background-color: var(--accent-color-one);
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            text-align: center;
+            font-style: normal;
 }
 
 .button-work:hover,
@@ -175,22 +180,13 @@ color: var(--primary-bt-color);
 
 .button-secondary {
     color: var(--primary-bt-color);
-        background-color: var(--accent-color);
+        background-color: var(--accent-color);font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            text-align: center;
+            font-style: normal;
 }
-  .button-work {
-    font-weight: 500;
-    font-size: 16px;
-    line-height:1.62;
-    text-align: center;
-    font-style: normal;
-}
-  .button-secondary{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    font-style: normal;
-  }
+  
    
 .address .link{
     color:var(--primary-bt-color);
