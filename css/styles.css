@@ -14,7 +14,6 @@
 body {
     background:var(--primary-bt-color);
     color:var(--primary-text-color);
-    font-weight: 400;
     font-size: 14px;
     font-family:Roboto, sans-serif;
     letter-spacing: 0.03em;
@@ -29,7 +28,6 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    
     text-decoration: none;
 }
 
@@ -60,6 +58,7 @@ button {
         line-height: 1.14;
         letter-spacing: 0.02em;
         text-decoration: none;
+        font-style: normal;
 }
 
 .site-nav .link:hover,
@@ -70,15 +69,17 @@ button {
 .site-nav .link-current{
     color: var(--accent-color);
     text-decoration: none;
+    font-weight: 500;
 
 }
 
 .auth-nav  .link{
     color:var(---primary-text-color);
-    font-weight: 500;
+        font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.02em;
         text-decoration: none;
+        font-style: normal;
 }
 
 .auth-nav .link:hover,
@@ -91,8 +92,7 @@ button {
  }
 .section-link {
     color:var(--primary-text-color);
-        font-size: 16px;
-        line-height: 1.88;
+        line-height: 2.0;
         letter-spacing: 0.03em;
         
 }
@@ -108,9 +108,9 @@ button {
 .section-item {
     color: var(--title-text-color);
     font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
+        line-height:1.14;
         letter-spacing: 0.06em;
+        text-transform: uppercase;
         
 }
 
@@ -149,6 +149,7 @@ color: var(--primary-bt-color);
     color: var(--primary-bt-color);
     background-color: var(--accent-color);
     text-decoration: none;
+    font-family: inherit;
 }
 
 .button-primary {
@@ -158,6 +159,7 @@ color: var(--primary-bt-color);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    text-align: center;
 }
 
 .button-work  {
@@ -175,10 +177,13 @@ color: var(--primary-bt-color);
     color: var(--primary-bt-color);
         background-color: var(--accent-color);
 }
-.button-work  .button-secondary {
-font-weight: 500;
+  .button-work,
+  .button-secondary {
+    font-weight: 500;
     font-size: 16px;
-    line-height:1.62; 
+    line-height:1.62;
+    text-align: center;
+    font-style: normal;
 }
 
 .address .link{
@@ -207,5 +212,5 @@ footer {
     background-color:var(--primary-brg-color);
     font-style:normal;
     text-decoration: none;
-    list-style: none;
+   
 }
